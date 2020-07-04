@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="personalBioWorkPage.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Personal Bio Work Page</title>
+  </head>
+  <body>
+    <div id="mainContainer">
+      <main>
+        <div id="mainContainer">
+          <!--main holds the topnavbar with links to other pages and links to social media--> 
+          
+              <div class="topbar">
+                  <ul>
+                      <li><a href="index.html">Home</a></li>
+                      <li><a href="gallery.html">Gallery</a></li>
+                      <li><a href="projects.html">Projects</a></li>    
+                  </ul>
+                  
+           <button id="navBarLink" hreff="sdff" class ="fa fa-github" style="font-size:24px" ></i></button>
+           <button id="navBarLink" href="#" class="fa fa-linkedin"></button>
+           <button id="navBarLink" href="#" class="fa fa-instagram"></button>
+           <button id="navBarLink" hreff="sdff" class="fa fa-envelope" style="font-size:24px"></button>
+        </div>
+      </main>
+      <div class="codeContainer">
+        <p>
+        Using HTML, JSP, MySQL I implimented a method to allow a customer to input and update information such 
+        as Names, Adress, and Phone Number. I started by setting up the general connections to MySQLworkbench and 
+        the HTML page. Then I used a cookie to store the users' account number. Using that Cookie I was albe to set
+        it as a condition for my SQL code gathering and changing the current useres informaition.Finally I set 
+        up checkpoints assuring that the general format of information stayed consistent in my DataBase.
+        To see more on this page or the full project you can click the Github icon.
+        <button id="navBarLink" hreff="sdff" class ="fa fa-github" style="font-size:24px" ></i></button> 
+        </p>
+        </br>
+    
+        <div id="codeEditor">
+          
+            <object  id ="code" data="codeFiles/infoChange.txt"  ></object>
+        </div>
+      </div>
+      <div class="codeContainer">
+        <p>
+        Again using HTML, JSP,and MySQL, I implimented a method to allow the user to get his travel itinerary 
+        for their selected reservation.I started by setting up the general connections to MySQLworkbench and 
+        the HTML page where I would return the table. I requested a parameter "resCode" from the user. This
+        parameter was used to implement in my SQL code. Then I created a skeleton table that will hold all the 
+        information in table form. Finally I created a while loop to return all corolated travel information of
+        the specific user. To see more on this page or the full project you can click the Github icon. 
+        <button id="navBarLink" hreff="sdff" class ="fa fa-github" style="font-size:24px" ></i></button>
+        </p>
+        </br>
+      
+          <div id="codeEditor">
+              <object  id ="code" data="codeFiles/travel.txt"  ></object> 
+          </div>
+      </div>
+    </div>
+  </div> 
+      <footer>
+        <!-- first rown contains links to home, gallery and workpage-->
+        <div>
+          <div id="footerLink">
+            <button hreff="sdfs">Home</button>
+            <button hreff="sdff">Gallery</button>
+            <button hreff="sdff">Work Page</button>
+          </div>
+          <!-- second row will contain contact information -->
+          <p id="contactInfo">Contacts: <a href="emaillink"> email </a></p>
+        </div>
+      </footer>
+   
+  </body>
+</html>

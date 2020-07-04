@@ -1,0 +1,139 @@
+body {
+  height: 100%;
+  position: relative;
+  background-color: rgb(146, 154, 171);
+}
+
+/*Main containere*/
+#mainContainer {
+  padding-bottom: 100px;
+}
+main {
+  width: 100%;
+  height: 80px;
+  background-color: rgb(211, 213, 253);
+  overflow: hidden;
+}
+
+/*design for the page links HOME, GALLERY, WORKPAGE*/
+
+ul {
+  float: left;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: relative;
+}
+ul li {
+  display: inline-block;
+  margin-left: 50px;
+  padding-top: 24px;
+}
+ul li a {
+  color: black;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-style: oblique;
+  text-decoration: none;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+li a:hover {
+  background-color: rgb(71, 74, 86);
+  color: white;
+}
+/*design for The social Media links*/
+
+#navBarLink {
+  float: right;
+  margin: 2%;
+  margin-top: 22px;
+  cursor: pointer;
+}
+.fa {
+  padding: 10px;
+  width: 80px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-github {
+  padding: 7px;
+  color: white;
+  background: black;
+}
+.fa-envelope {
+  padding: 8px;
+  background: gray;
+  cursor: pointer;
+}
+.codeContainer {
+  margin: auto;
+  width: 70%;
+  height: 900px;
+  border: 2px solid rgb(211, 213, 253);
+  overflow: hidden;
+  margin-top: 20px;
+}
+.codeContainer p {
+  margin-left: 20px;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+#codeEditor {
+  margin: auto;
+  width: 90%;
+  height: 80%;
+  background: gray;
+}
+#code {
+  width: 100%;
+  height: 100%;
+}
+footer {
+  width: 100%;
+  bottom: 0;
+  height: 100px;
+  background-color: rgb(71, 74, 86);
+  position: relative;
+  margin-top: -50px;
+  clear: both;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#footerLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#footerLink button {
+  background: rgb(211, 213, 253);
+
+  cursor: pointer;
+  margin-right: 10px;
+}
+#contactInfo {
+  color: white;
+}
+#contactInfo a {
+  color: white;
+  text-decoration: none;
+}
